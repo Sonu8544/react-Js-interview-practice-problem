@@ -1,11 +1,14 @@
 import './App.css'
 import OneHelloWorld from './components/One/OneHelloWorld'
+import CounterUpdate from './components/Two/CounterUpdate'
 
 function App() {
 
   return (
     <>
-      <OneHelloWorld />
+      {/* <OneHelloWorld /> */}
+      <CounterUpdate />
+
     </>
   )
 }
