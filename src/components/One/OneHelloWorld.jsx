@@ -4,7 +4,7 @@ import './OneHelloWorld.css'
 const OneHelloWorld = () => {
     return (
         <>
-             <h1 className='one' >Hello World Sonu </h1>
+            <h1 className='one' >Hello World Sonu </h1>
         </>
     )
 }
