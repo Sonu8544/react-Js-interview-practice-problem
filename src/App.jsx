@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      {/* <OneHelloWorld /> */}
-      {/* <CounterUpdate /> */}
+      <OneHelloWorld /> 
+       <CounterUpdate />
 
     </>
   )
