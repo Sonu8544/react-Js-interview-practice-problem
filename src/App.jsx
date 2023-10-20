@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-
 import OneHelloWorld from './components/One/OneHelloWorld'
+import CounterUpdate from './components/Two/CounterUpdate'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <OneHelloWorld />
+      {/* <OneHelloWorld /> */}
+      <CounterUpdate />
+
     </>
   )
 }
