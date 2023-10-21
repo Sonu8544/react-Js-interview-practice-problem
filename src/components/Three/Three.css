@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-box {
+    text-align: center;
+    margin: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+    color: orange;
+    width: 300px;
+    transition: border 0.3s;
+    background-color: black;
+}
+
+.input::placeholder {
+    color: #fffafa;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.input:hover, .input:focus {
+    border: 2px solid white;
+    outline: none;
+}
+
