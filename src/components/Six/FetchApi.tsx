@@ -25,9 +25,9 @@ const FetchApi = () => {
                 </thead>
                 <tbody>
                     {data.map((item, index) => (
-                        <tr key={item.id} >
-                            <td style={{ border: '2px solid yellow', padding: '5px' }} >{item.id}</td>
-                            <td  style={{ border: '2px solid yellow', padding: '5px' }}>{item.name}</td>
+                        <tr key={item} >  //item.id
+                            <td style={{ border: '2px solid yellow', padding: '5px' }} >{item}</td> // item.id
+                            <td  style={{ border: '2px solid yellow', padding: '5px' }}>{item}</td>  // item.name
                         </tr>
                     ))}
                 </tbody>
