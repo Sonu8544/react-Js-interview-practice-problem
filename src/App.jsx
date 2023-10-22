@@ -10,6 +10,7 @@ import RandomJokes from "./components/Seven/RandomJokes";
 import TodoList from "./components/Eight/TodoList";
 import BackgroundColorChange from "./components/Nine/BackgroundColorChange";
 import Routing from "./components/Ten/Routing";
+import ImageUpload from "./components/Eleven/ImageUpload";
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
        {/* <RandomJokes /> */}
        {/* <TodoList /> */}
        {/* <BackgroundColorChange /> */}
-       <Routing />
+       {/* <Routing /> */}
+       <ImageUpload />
 
     </>
   );
