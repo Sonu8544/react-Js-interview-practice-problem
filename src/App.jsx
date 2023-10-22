@@ -9,6 +9,7 @@ import FetchData from "./components/Six/FetchData";
 import RandomJokes from "./components/Seven/RandomJokes";
 import TodoList from "./components/Eight/TodoList";
 import BackgroundColorChange from "./components/Nine/BackgroundColorChange";
+import Routing from "./components/Ten/Routing";
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
        {/* <FetchData /> */}
        {/* <RandomJokes /> */}
        {/* <TodoList /> */}
-       <BackgroundColorChange />
+       {/* <BackgroundColorChange /> */}
+       <Routing />
 
     </>
   );
