@@ -7,6 +7,7 @@ import ToggleComponent from "./components/Five/ToggleComponent";
 import FetchApi from "./components/Six/FetchApi";
 import FetchData from "./components/Six/FetchData";
 import RandomJokes from "./components/Seven/RandomJokes";
+import TodoList from "./components/Eight/TodoList";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <PrintRealTimeText /> */}
        {/* <FetchApi /> */}
        {/* <FetchData /> */}
-       <RandomJokes />
+       {/* <RandomJokes /> */}
+       <TodoList />
 
     </>
   );
