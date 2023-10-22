@@ -4,7 +4,9 @@ import CounterUpdate from "./components/Two/CounterUpdate";
 import PrintRealTimeText from "./components/Three/PrintRealTimeText";
 import RanderListOfItem from "./components/Four/RanderListOfItem";
 import ToggleComponent from "./components/Five/ToggleComponent";
-import FetchApi from "./components/Six/FetchApi";
+// import FetchApi from "./components/Six/FetchApi";
+import FetchData from "./components/Six/FetchData";
+
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       {/* <RanderListOfItem /> */}
       {/* <ToggleComponent /> */}
       {/* <PrintRealTimeText /> */}
-       <FetchApi />
+       {/* <FetchApi /> */}
+       <FetchData />
 
     </>
   );
