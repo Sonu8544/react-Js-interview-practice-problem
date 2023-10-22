@@ -8,6 +8,7 @@ import FetchApi from "./components/Six/FetchApi";
 import FetchData from "./components/Six/FetchData";
 import RandomJokes from "./components/Seven/RandomJokes";
 import TodoList from "./components/Eight/TodoList";
+import BackgroundColorChange from "./components/Nine/BackgroundColorChange";
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
        {/* <FetchApi /> */}
        {/* <FetchData /> */}
        {/* <RandomJokes /> */}
-       <TodoList />
+       {/* <TodoList /> */}
+       <BackgroundColorChange />
 
     </>
   );
